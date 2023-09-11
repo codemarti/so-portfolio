@@ -3,7 +3,7 @@
 ## Martín Martínez Arias - 27AV
 
 >`
->✅ Tarea #998 : Instalar Virtualbox y alguna distribucion de Linux, entregar para el 12/09/23, >tomar screenshot del sistema ya instalado y subir la captura a su repositorio de tareas como evidencia.
+>✅ Tarea #998 : Instalar Virtualbox y alguna distribucion de Linux, entregar para el 12/09/23, tomar screenshot del sistema ya instalado y subir la captura a su repositorio de tareas como evidencia.
 >`
 >
 > ![Captura de la distribución ya instalada en VBox.](./images/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.")
