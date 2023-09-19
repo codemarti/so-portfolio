@@ -104,6 +104,6 @@
 >`✅ Realizar los 18 bash scripts que vienen en el PDF shell_linux.pdf, subirlos a su repositorio.
 >`
 >
-> ➡️ [Carpeta contenedora de los scripts.](./menu/contenedor-directorios/ "Carpeta contenedora de los scripts.") ⬅️
+> ➡️ [Carpeta contenedora de los scripts.](./menu/contenedor-directorios/seis/ "Carpeta contenedora de los scripts.") ⬅️
 >
 > ----
