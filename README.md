@@ -29,4 +29,4 @@
 #### Tarea #995
 >`✅ Crear un gif que explique algún concepto, relacionado al curso, que hayas aprendido.
 >`
-> ![GIF temas aprendidos del curso.](./files/996.QUE-ES-BASH.mp4 "Captura del nivel final de VIM Adventures.")
+> ![GIF temas aprendidos del curso.](./files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.")
