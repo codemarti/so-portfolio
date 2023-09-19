@@ -7,16 +7,16 @@
 >`
 >
 > ![Captura de la distribución ya instalada en VBox.](./files/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.")
-
-----
+>
+> ----
 
 #### Tarea #997
 >`✅ Hacer el https://vim-adventures.com los niveles gratuitos, sacar un screenshot del ultimo nivel y subirlo a su repositorio de tareas para el 12/09/23 antes de clase.
 >`
 >
 > ![Captura del nivel final de VIM Adventures.](./files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.")
-
-----
+>
+> ----
 
 #### Tarea #996
 >`✅ Hacer un menú en bash que permita elegir la ejecución entre el script para crear un árbol de directorios, el script de hola mundo y el script de saludo usando variables y por último la opción de salir.
@@ -90,10 +90,20 @@
 >     esac
 > done
 > ```
-
-----
+>
+> ----
 
 #### Tarea #995
 >`✅ Crear un gif que explique algún concepto, relacionado al curso, que hayas aprendido.
 >`
 >![GIF temas aprendidos del curso.](./files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.")
+>
+> ----
+
+#### Tarea #994
+>`✅ Realizar los 18 bash scripts que vienen en el PDF shell_linux.pdf, subirlos a su repositorio.
+>`
+>
+> ➡️ [Carpeta contenedora de los scripts.](./menu/contenedor-directorios/ "Carpeta contenedora de los scripts.") ⬅️
+>
+> ----
