@@ -104,6 +104,36 @@
 >`✅ Realizar los 18 bash scripts que vienen en el PDF shell_linux.pdf, subirlos a su repositorio.
 >`
 >
-> ➡️ [Carpeta contenedora de los scripts.](./menu/contenedor-directorios/seis/ "Carpeta contenedora de los scripts.") ⬅️
+>➡️ [Carpeta contenedora de los scripts.](./menu/contenedor-directorios/seis/ "Carpeta contenedora de los scripts.") ⬅️
+>
+> ----
+
+#### Tarea #993
+>`❌ Realizar todos los niveles de Bandit de [Niveles de bandit](https://overthewire.org/wargames/bandit/ "Niveles de bandit") poner evidencia de los comandos utilizados en un txt y subirlo a su repositorio de tareas. Entregar a fin del mes de Octubre.
+>`
+>
+> ----
+
+#### Tarea #992
+
+#### Tarea #991
+
+#### Tarea #990
+
+#### Tarea #989
+
+#### Tarea #988
+>`✅ Realizar el siguiente ejercicio durante la clase de hoy, documentar los resultados en un PDF mediante screenshots y subir el PDF a su repositorio como evidencia.
+>`
+>
+>➡️ [Tarea 988.](./files/pdf-folders/tarea-988.pdf "Tarea 988.") ⬅️
+>
+> ----
+
+#### Tarea #987
+>`✅ Realizar el siguiente laboratorio durante la clase de hoy , en un PDF documentar con screenshots los resultados de sus comandos y las respuestas a sus preguntas. Subir el PDF a su repo.
+>`
+>
+>➡️ [Tarea 987.](./files/pdf-folders/tarea-987.pdf "Tarea 987.") ⬅️
 >
 > ----
