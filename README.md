@@ -6,7 +6,7 @@
 >`✅ Instalar Virtualbox y alguna distribucion de Linux, entregar para el 12/09/23, tomar screenshot del sistema ya instalado y subir la captura a su repositorio de tareas como evidencia.
 >`
 >
-> ![Captura de la distribución ya instalada en VBox.](https://github.com/codemarti/so-portfolio/blob/main/files/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.")
+>[Captura de la distribución ya instalada en VBox.](https://github.com/codemarti/so-portfolio/blob/main/files/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.")
 >
 > ----
 
@@ -14,7 +14,7 @@
 >`✅ Hacer el https://vim-adventures.com los niveles gratuitos, sacar un screenshot del ultimo nivel y subirlo a su repositorio de tareas para el 12/09/23 antes de clase.
 >`
 >
-> ![Captura del nivel final de VIM Adventures.](https://github.com/codemarti/so-portfolio/blob/main/files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.")
+>[Captura del nivel final de VIM Adventures.](https://github.com/codemarti/so-portfolio/blob/main/files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.")
 >
 > ----
 
@@ -22,7 +22,7 @@
 >`✅ Hacer un menú en bash que permita elegir la ejecución entre el script para crear un árbol de directorios, el script de hola mundo y el script de saludo usando variables y por último la opción de salir.
 >`
 >
-> <a href="https://asciinema.org/a/608822" target="_blank"><img src="https://asciinema.org/a/608822.svg" /></a>
+> <a href="https://asciinema.org/a/608822" target="_blank"><img src="https://asciinema.org/a/608822.svg" />ASCIINEMA GIF</a>
 >
 > **👇`Código`**
 > ``` BASH
@@ -96,7 +96,7 @@
 #### Tarea #995
 >`✅ Crear un gif que explique algún concepto, relacionado al curso, que hayas aprendido.
 >`
->![GIF temas aprendidos del curso.](https://github.com/codemarti/so-portfolio/blob/main/files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.")
+>[GIF temas aprendidos del curso.](https://github.com/codemarti/so-portfolio/blob/main/files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.")
 >
 > ----
 
@@ -121,7 +121,7 @@
 > ----
 
 #### Tarea #991
->`❌ Realizar los rooms de Linux Fundamentals de [TryHackMe](https://tryhackme.com/room/linuxfundamentalspart1 "TryHackMe")  los 3 rooms, solo los que sean gratis.
+>`❌ Realizar los rooms de Linux Fundamentals de [TryHackMe](https://tryhackme.com/room/linuxfundamentalspart1 "TryHackMe") los 3 rooms, solo los que sean gratis.
 >`
 >
 > ----
@@ -141,7 +141,7 @@
 >`✅ Realizar el siguiente ejercicio durante la clase de hoy, documentar los resultados en un PDF mediante screenshots y subir el PDF a su repositorio como evidencia.
 >`
 >
-> [Tarea 988.](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-988.pdf "Tarea 988.") ⬅️
+>➡️ [Tarea 988.](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-988.pdf "Tarea 988.") ⬅️
 >
 > ----
 
