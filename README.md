@@ -11,7 +11,9 @@
 > ----
 
 #### Tarea #997
->`✅ Hacer el https://vim-adventures.com los niveles gratuitos, sacar un screenshot del ultimo nivel y subirlo a su repositorio de tareas para el 12/09/23 antes de clase.
+>`✅ Hacer los niveles gratuitos de
+>`[Vim Adventures](https://vim-adventures.com "Pagina de Vim Adventures")
+>`, sacar un screenshot del ultimo nivel y subirlo a su repositorio de tareas para el 12/09/23 antes de clase.
 >`
 >
 >[Captura del nivel final de VIM Adventures.](https://github.com/codemarti/so-portfolio/blob/main/files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.")
@@ -111,7 +113,7 @@
 
 #### Tarea #993
 >`❌ Realizar todos los
->` [niveles de Bandit](https://overthewire.org/wargames/bandit/ "Niveles de bandit")
+>` [niveles de Bandit](https://overthewire.org/wargames/bandit/ "niveles de Bandit")
 >` , poner evidencia de los comandos utilizados en un txt.
 >`
 >
