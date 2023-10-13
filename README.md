@@ -6,7 +6,7 @@
 >`✅ Instalar Virtualbox y alguna distribucion de Linux, entregar para el 12/09/23, tomar screenshot del sistema ya instalado y subir la captura a su repositorio de tareas como evidencia.
 >`
 >
-> ![Captura de la distribución ya instalada en VBox.](./files/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.")
+> ![Captura de la distribución ya instalada en VBox.](https://github.com/codemarti/so-portfolio/blob/main/files/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.")
 >
 > ----
 
@@ -14,7 +14,7 @@
 >`✅ Hacer el https://vim-adventures.com los niveles gratuitos, sacar un screenshot del ultimo nivel y subirlo a su repositorio de tareas para el 12/09/23 antes de clase.
 >`
 >
-> ![Captura del nivel final de VIM Adventures.](./files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.")
+> ![Captura del nivel final de VIM Adventures.](https://github.com/codemarti/so-portfolio/blob/main/files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.")
 >
 > ----
 
@@ -96,7 +96,7 @@
 #### Tarea #995
 >`✅ Crear un gif que explique algún concepto, relacionado al curso, que hayas aprendido.
 >`
->![GIF temas aprendidos del curso.](./files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.")
+>![GIF temas aprendidos del curso.](https://github.com/codemarti/so-portfolio/blob/main/files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.")
 >
 > ----
 
@@ -104,29 +104,44 @@
 >`✅ Realizar los 18 bash scripts que vienen en el PDF shell_linux.pdf, subirlos a su repositorio.
 >`
 >
->➡️ [Carpeta contenedora de los scripts.](./menu/contenedor-directorios/seis/ "Carpeta contenedora de los scripts.") ⬅️
+>➡️ [Carpeta contenedora de los scripts.](https://github.com/codemarti/so-portfolio/tree/main/menu/contenedor-directorios/seis "Carpeta contenedora de los scripts.") ⬅️
 >
 > ----
 
 #### Tarea #993
->`❌ Realizar todos los niveles de Bandit de [Niveles de bandit](https://overthewire.org/wargames/bandit/ "Niveles de bandit") poner evidencia de los comandos utilizados en un txt y subirlo a su repositorio de tareas. Entregar a fin del mes de Octubre.
+>`❌ Realizar todos los niveles de Bandit de [Niveles de bandit](https://overthewire.org/wargames/bandit/ "Niveles de bandit"), poner evidencia de los comandos utilizados en un txt.
 >`
 >
 > ----
 
 #### Tarea #992
+>`❌ Participar en el [HacktoberFest.](https://x.com/hacktoberfest/status/1706642413895241838?s=46&t=wh4RmHitx0mloV0NlU800w "HacktoberFest").
+>`
+>
+> ----
 
 #### Tarea #991
+>`❌ Realizar los rooms de Linux Fundamentals de [TryHackMe](https://tryhackme.com/room/linuxfundamentalspart1 "TryHackMe")  los 3 rooms, solo los que sean gratis.
+>`
+>
+> ----
 
 #### Tarea #990
+>`❌ Crear un jail, del estilo de bandit, aquí explicó cómo crear un jail y en qué consiste, está hecho con Python, pueden usar cualquier lenguaje [Como crear un Jail.](https://youtu.be/jAvAacuWlwo?si=hIdlSOjfBCbWtFzH "Como crear un Jail").
+>`
+>
+> ----
 
 #### Tarea #989
+>`❌ Realizar el room de Bash Scripting de [TryHackMe.](https://tryhackme.com/room/bashscripting "TryHackMe").
+>`
+>
 
 #### Tarea #988
 >`✅ Realizar el siguiente ejercicio durante la clase de hoy, documentar los resultados en un PDF mediante screenshots y subir el PDF a su repositorio como evidencia.
 >`
 >
->➡️ [Tarea 988.](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-988.pdf "Tarea 988.") ⬅️
+> [Tarea 988.](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-988.pdf "Tarea 988.") ⬅️
 >
 > ----
 
