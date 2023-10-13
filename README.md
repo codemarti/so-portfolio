@@ -96,6 +96,7 @@
 #### Tarea #995
 >`✅ Crear un gif que explique algún concepto, relacionado al curso, que hayas aprendido.
 >`
+>
 >[GIF temas aprendidos del curso.](https://github.com/codemarti/so-portfolio/blob/main/files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.")
 >
 > ----
@@ -109,33 +110,44 @@
 > ----
 
 #### Tarea #993
->`❌ Realizar todos los niveles de Bandit de [Niveles de bandit](https://overthewire.org/wargames/bandit/ "Niveles de bandit"), poner evidencia de los comandos utilizados en un txt.
+>`❌ Realizar todos los
+>` [niveles de Bandit](https://overthewire.org/wargames/bandit/ "Niveles de bandit")
+>` , poner evidencia de los comandos utilizados en un txt.
 >`
 >
 > ----
 
 #### Tarea #992
->`❌ Participar en el [HacktoberFest.](https://x.com/hacktoberfest/status/1706642413895241838?s=46&t=wh4RmHitx0mloV0NlU800w "HacktoberFest").
+>`❌ Participar en el
+>` [HacktoberFest](https://x.com/hacktoberfest/status/1706642413895241838?s=46&t=wh4RmHitx0mloV0NlU800w "HacktoberFest")
+>`.
 >`
 >
 > ----
 
 #### Tarea #991
->`❌ Realizar los rooms de Linux Fundamentals de [TryHackMe](https://tryhackme.com/room/linuxfundamentalspart1 "TryHackMe") los 3 rooms, solo los que sean gratis.
+>`❌ Realizar los rooms de Linux Fundamentals de
+>`[TryHackMe](https://tryhackme.com/room/linuxfundamentalspart1 "TryHackMe")
+>`los 3 rooms, solo los que sean gratis.
 >`
 >
 > ----
 
 #### Tarea #990
->`❌ Crear un jail, del estilo de bandit, aquí explicó cómo crear un jail y en qué consiste, está hecho con Python, pueden usar cualquier lenguaje [Como crear un Jail.](https://youtu.be/jAvAacuWlwo?si=hIdlSOjfBCbWtFzH "Como crear un Jail").
+>`❌ Crear un jail, del estilo de bandit, aquí explicó cómo crear un jail y en qué consiste, está hecho con Python, pueden usar cualquier lenguaje
+>`👉 [Como crear un Jail](https://youtu.be/jAvAacuWlwo?si=hIdlSOjfBCbWtFzH "Como crear un Jail")
+>`.
 >`
 >
 > ----
 
 #### Tarea #989
->`❌ Realizar el room de Bash Scripting de [TryHackMe.](https://tryhackme.com/room/bashscripting "TryHackMe").
+>`❌ Realizar el room de Bash Scripting de
+>`[TryHackMe](https://tryhackme.com/room/bashscripting "TryHackMe")
+>`.
 >`
 >
+> ----
 
 #### Tarea #988
 >`✅ Realizar el siguiente ejercicio durante la clase de hoy, documentar los resultados en un PDF mediante screenshots y subir el PDF a su repositorio como evidencia.
