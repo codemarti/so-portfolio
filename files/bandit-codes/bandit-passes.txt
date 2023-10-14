@@ -22,3 +22,5 @@ Para contar cuantas lineas tenemos en algun archivo, podemos usar
 
 Para contar cuantos caracteres tiene un archivo, podemos usar
 	wc -c
+
+https://github.com/codemarti/so-portfolio/tree/main/files/bandit-codes
