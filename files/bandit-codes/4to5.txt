@@ -1,0 +1,5 @@
+find . -name -file*                 // aqui listamos todos los archivos de nombre '-file' y algo, esto por el *
+
+file inhere/*                       // aqui listamos el tipo de archivo para cada archivo dentro del directorio
+
+find . -name -file07 | xargs cat    // aqui buscamos el archivo y paralelamente aplicamos el comando cat

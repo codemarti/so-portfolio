@@ -1,0 +1,2 @@
+// este comando busca en la raiz (debido al '/') mediante el usuario propietario bandit7 y el grupo bandit 6, tambien con la condicion de que pese 33 bytes, luego para que no nos muestre todos los 'errores' de permisos denegados, redirigimos el stderr al /dev/null, finalmente hacemos el comando cat paralelamente
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null | xargs cat

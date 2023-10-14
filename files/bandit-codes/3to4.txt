@@ -1,0 +1,8 @@
+ls -a inhere/                     // con -a podemos listar archivos incluidos los archivos ocultos
+
+find .                            // podemos buscar todos los archivos y directorios de forma recursiva
+
+find . -type f -name "*hidden"    // aqui buscamos directamente el archivo ocultos
+
+// xargs es una utilidad que nos permite ejecutar comandos de forma paralela al comando que estamos haciendo
+find . -type f -name "*hidden" | xargs cat

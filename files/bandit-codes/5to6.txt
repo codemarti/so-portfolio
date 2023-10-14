@@ -1,0 +1,2 @@
+// aqui decimos que nos busque archivos de tipo archivo, que sean leibles pero que no sean ejecutables, que su tamaño sea de 1033 bytes, tambien decimos que paralelamente le aplique el comando cat y finalmente para formatear el texto (quitando los espacios en blanco de mas) aplicamos un xargs
+find . -type f -readable ! -executable -size 1033c | xargs cat | xargs
