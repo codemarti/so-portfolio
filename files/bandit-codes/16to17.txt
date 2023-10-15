@@ -1,0 +1,3 @@
+// aqui lo que hacemos es acutat como cliente mediante openssl usando el parametro -connect para conectarnos al host al puerto 30001, y una vez hecho proporcionamos la contraseña para obtener la siguiente clave
+// ⬇️
+openssl s_client -connect localhost:30001

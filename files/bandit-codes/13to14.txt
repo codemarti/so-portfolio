@@ -1,0 +1,8 @@
+ls
+// en este nivel debido a que nada mas empezando ya nos muestra una dichero de identidad o clave ssh privada, esto nos indica que se conecta a un sistema ssh pasandole como argumento este archivo, una vez pasandole este archivo no sera necesario que pasemos una contraseña al sistema al que entremos
+// aqui lo que vamos hacer es conectarnos a un servidor remoto y a su vez le pasaremos un archivo de identidad (tambien conocido como -i o --identity-file), este archivo nos permitira seleccionar una clave especifica para la conexion
+// ⬇️
+ssh -i sshkey.private --port 2220 bandit14@localhost
+
+// luego ya en el usuario bandit14 podemos ejecutar el comando para obtener la contraseña
+cat /etc/bandit_passes/bandit14

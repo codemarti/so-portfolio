@@ -7,7 +7,6 @@
 >`
 >
 >[Captura de la distribución ya instalada en VBox.](https://github.com/codemarti/so-portfolio/blob/main/files/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.")
->
 > ----
 
 #### Tarea #997
@@ -17,7 +16,6 @@
 >`
 >
 >[Captura del nivel final de VIM Adventures.](https://github.com/codemarti/so-portfolio/blob/main/files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.")
->
 > ----
 
 #### Tarea #996
@@ -100,7 +98,6 @@
 >`
 >
 >[GIF temas aprendidos del curso.](https://github.com/codemarti/so-portfolio/blob/main/files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.")
->
 > ----
 
 #### Tarea #994
@@ -108,15 +105,15 @@
 >`
 >
 >➡️ [Carpeta contenedora de los scripts.](https://github.com/codemarti/so-portfolio/tree/main/menu/contenedor-directorios/seis "Carpeta contenedora de los scripts.") ⬅️
->
 > ----
 
 #### Tarea #993
->`❌ Realizar todos los
+>`✅ Realizar todos los
 >` [niveles de Bandit](https://overthewire.org/wargames/bandit/ "niveles de Bandit")
 >` , poner evidencia de los comandos utilizados en un txt.
 >`
 >
+>➡️ [Carpeta contenedora de los comandos para los niveles de Bandit.](https://github.com/codemarti/so-portfolio/tree/main/files/bandit-codes "Carpeta contenedora de los comandos para los niveles de Bandit.") ⬅️
 > ----
 
 #### Tarea #992

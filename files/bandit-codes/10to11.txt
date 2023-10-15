@@ -1,0 +1,8 @@
+// aqui de una vez podemos usar cat en el archivo, despues podemos trabajar la salida usando base64 -d para decodificar el base64 que nos dan en la salida, y por ultimo podemos usar awk para obtener el ultimo valor
+// ⬇️
+cat data.txt | base64 -d | awk 'NF{print $NF}'
+
+// aunque tambien podemos hacer todo lo anterior pero cuando la salida no arroje el resultado podemos sustituir los espacios por '\n' y usando un contador para mostrar las lineas que nos arroje el bucle, finalmente usamos awk para obtener la linea final y mostrarla en pantalla.
+// ⬇️
+contador=1; cat data.txt | base64 -d | tr ' ' '\n' | while read linea; do echo "Linea $contador: $linea"; contador+=1; done | awk 'NR==4' | awk 'NF{print $NF}'
+

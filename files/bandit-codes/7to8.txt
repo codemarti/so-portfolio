@@ -1,9 +1,12 @@
 // podemos usar grep para filtrar por nombre y mediante eso obtener la clave
+// ⬇️
 grep 'millionth' data.txt
 
 
 // tambien podemos usar awk para buscar patrones en archivos de texto
+// ⬇️
 awk '/millionth/ {print $2}' data.txt
 
 // aunque como sabemos que la clave se encuentra como el ultimo argumento / elemento en ese linea en concreta, podemos usar 'NF{print $NF}'
+// ⬇️
 awk '/millionth/' data.txt | awk 'NF{print $NF}'

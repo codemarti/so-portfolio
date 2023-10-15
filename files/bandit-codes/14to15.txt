@@ -1,0 +1,12 @@
+// para este nivel tenemos dos opciones para realizar esto
+// ⬇️
+// primeramente podemos realizarlo con telnet, donde debemos especificarle el host al que queremos conectarnos y por ultimo el puerto al que queremos conectarnos
+// ⬇️
+telnet localhost 30000
+// ⬇️
+// despues debemos proporcionarle la contraseña, la cual es la misma para entrar al nivel 14
+
+
+// y la ultima manera es enviando una cadena (la clave, la cual seria la del nivel 14), pasandolo mediante nc al localhost por el puerto 30000
+// ⬇️
+echo "fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq" | nc localhost 30000
