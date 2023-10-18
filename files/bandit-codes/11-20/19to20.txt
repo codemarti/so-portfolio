@@ -1,0 +1,15 @@
+// en este nivel tenemos un archivo binario setuid (el cual tiene priviligios para que otro usuario pueda ejecutarlo) que dice podemos ejecutar el binario de forma temporal como el usuario propietario
+// por lo que al ejecutarlo nos dice que podemos ejecutar un comando
+// ⬇️
+./bandit20-do whoami
+
+// entonces podemos aprovecharnos de esto y podemos spawnear una shell
+// con sh si atiende al setuid
+// ⬇️
+./bandit20-do sh
+
+// si hacemos lo anterior con bash, no podra atender al setuid, por lo que para que hagamos lo anterior desde la bash (por medidas de protecciones) debemos ponerle un parametro -p31000
+// ⬇️
+./bandit20-do bash -p
+
+// despues ya solamente podemos acceder a la clave mediante la ruta absoluta

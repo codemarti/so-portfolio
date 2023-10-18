@@ -1,0 +1,8 @@
+// en bash tenemos un comando que directamente nos lista las diferencias de los archivos (diff), solamente tendriamos que pasarle el nombre del primer archivo contra el otro archivo, en este nivel si queremos ver las diferencias del viejo archivo y del nuevo archivo, entonces podemos hacer:
+// ⬇️
+diff passwords.old passwords.new
+
+// ahora esto lo hacemos porque cada archivo tiene 100 lineas, esto lo sabemos por
+// ⬇️
+cat passwords.old | wc -l
+cat passwords.old | wc -l

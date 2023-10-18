@@ -1,0 +1,20 @@
+// aqui usaremos nmap  con --open para encontrar los puertos que esten abiertos, usaremos T5 (para un escaneo agresivo) debido a que estamos en un entorno controlado, verbose para listar mas detalles de los puertos y lo marque en consola, -n quitamos la resolucion DNS para que tarde menos tiempo, y por ultimo le indicamos un rango de puertos, como parametro final le pasamos el host al que queremos acceder
+// ⬇️
+// aqui localhost puede ser tambien 127.0.0.1
+nmap --open -T5 -v -n -p31000-32000 localhost
+
+// despues de listar los puertos abiertos tendremos que conectarnos a alguno de ellos para obtener la siguiete clave
+//sabemos que la comunicacion es por ssl entonces nos conectaremos como cliente a cada puerto abierto del host local y una vez dentro del puerto proporcionaremos la contraseña del nivel actual
+// ⬇️
+openssl s_client -connect localhost:31960
+
+// lo anterior nos proporciona una lalve privada, por lo que tenemos que trabajar con ella
+// cuando hayamos creado nuestro id_rsa con VI, mediante chmod necesitamos pasarle el privlegio 600 el cual no es otro que permite que unicamente el propietario de ese archivo pueda leer y escribir en el
+// ⬇️
+chmod 600 id_rsa
+
+// ahora una vez dado los permisos, tenemos que hacer la conexion ssh y con -i le decimos que utilice la clave privada del archivo id_rsa, nos conectaremos de forma segura al usuario y dominio especificados, y por ultimo tenemos que pasarle el puerto de conexion
+// ⬇️
+ssh -i id_rsa bandit17@localhost -p 2220
+
+// como paso final es obtener la clave del siguiente nivel, eso lo podemos hacer mediante un cat a la ruta /etc/bandit_pass/bandit<poner_numero_nivel>

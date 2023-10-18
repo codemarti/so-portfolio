@@ -1,0 +1,11 @@
+// aqui debemos saber que cuando usamos bashrc, tenemos un inconveniente, y es que cualquier comando o accion que tengamos definado dentro del .bashrc se va a ejecutar despues de que nos conectemos (aunque esto solo tiene un margen de tiempo)
+// por lo que nos podemos aprovechar de esto para conseguir la proxima clave
+// por lo que por lo anterior si hacemos lo siguiente, podremos obtener el usuario al que queremos acceder
+// ⬇️
+ssh bandit18@bandit.labs.overthewire.org -p 2220 whoami
+
+// ahora si usamos bash y su utilidad --norc podremos interactuar con el usuario y obtener la clave
+// ⬇️
+ssh bandit18@bandit.labs.overthewire.org -p 2220 bash --norc
+
+// dentro de la pseudoconsola (esto mediante la anterior utilidad), podemos realizar lo que nos pide para entrar al siguiete nivel
