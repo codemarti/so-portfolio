@@ -6,7 +6,7 @@
 >`✅ Instalar Virtualbox y alguna distribucion de Linux, entregar para el 12/09/23, tomar screenshot del sistema ya instalado y subir la captura a su repositorio de tareas como evidencia.
 >`
 >
->[Captura de la distribución ya instalada en VBox.](https://github.com/codemarti/so-portfolio/blob/main/files/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.")
+>️️️️️️️️️➡️ [Captura de la distribución ya instalada en VBox.](https://github.com/codemarti/so-portfolio/blob/main/files/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.") ⬅️
 > ----
 
 #### Tarea #997
@@ -15,14 +15,12 @@
 >`, sacar un screenshot del ultimo nivel y subirlo a su repositorio de tareas para el 12/09/23 antes de clase.
 >`
 >
->[Captura del nivel final de VIM Adventures.](https://github.com/codemarti/so-portfolio/blob/main/files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.")
+>➡️ [Captura del nivel final de VIM Adventures.](https://github.com/codemarti/so-portfolio/blob/main/files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.") ⬅️
 > ----
 
 #### Tarea #996
 >`✅ Hacer un menú en bash que permita elegir la ejecución entre el script para crear un árbol de directorios, el script de hola mundo y el script de saludo usando variables y por último la opción de salir.
 >`
->
->[ASCIINEMA GIF](https://asciinema.org/a/608822 "ASCIINEMA GIF")
 >
 > **👇`Código`**
 > ``` BASH
@@ -90,14 +88,14 @@
 >     esac
 > done
 > ```
->
+>➡️ [ASCIINEMA GIF](https://asciinema.org/a/608822 "ASCIINEMA GIF") ⬅️
 > ----
 
 #### Tarea #995
 >`✅ Crear un gif que explique algún concepto, relacionado al curso, que hayas aprendido.
 >`
 >
->[GIF temas aprendidos del curso.](https://github.com/codemarti/so-portfolio/blob/main/files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.")
+>➡️ [GIF temas aprendidos del curso.](https://github.com/codemarti/so-portfolio/blob/main/files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.") ⬅️
 > ----
 
 #### Tarea #994
@@ -153,7 +151,6 @@
 >`
 >
 >➡️ [Tarea 988.](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-988.pdf "Tarea 988.") ⬅️
->
 > ----
 
 #### Tarea #987
@@ -161,5 +158,4 @@
 >`
 >
 >➡️ [Tarea 987.](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-987.pdf "Tarea 987.") ⬅️
->
 > ----
