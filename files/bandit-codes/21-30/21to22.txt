@@ -1,0 +1,8 @@
+// en este nivel nos dicen que hay una tarea cron (las tareas cron son tareas que se ejecutan a intervalos regulares de tiempo / a nivel de sistema)
+// por lo que al mostrar el contenido de la ruta que nos sugieren en este nivel obtenemos una serie de archivos de los cuales entre ellos se encuentra el bandit22
+// al hacer un muestreo al archivo bandit22 vemos que esta tarea a intervalos regulares de tiempo de un minuto hace que como usuario bandit22 esta ejecutando un binario
+// al hacer un muestreo al binario que ejecuta el bandit22 obtenemos un script en bash (el cual no podemos editar)
+// lo que hace este archivo es asignarle el privilegio 644 a un archivo y finalmente esta haciendo un cat de la contraseña del usuario bandit22 y lo mete al archivo donde esta asignando tambien el privilegio
+// si hacemos un muestreo del archivo donde se mete la contraseña del usuario bandit22 obtenemos la siguiente clave
+// ⬇️
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv

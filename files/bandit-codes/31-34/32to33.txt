@@ -1,0 +1,12 @@
+// en este nivel vemos que todos los comandos que ingresemos nos lo convierte en MAYUSCULAS
+// debido a que bash es key_sensitive, no reconoce lo comandos en MAYUSCULAS
+// entonces lo que podemos hacer es usar $0, este argumente siempre nos dice el tipo de shell en el que estamos
+// basicamente el $0 nos manda a la shell en la que nos encontramos, y con esto podemos para saber quienes somos podemos ingresar
+// ⬇️
+whoami
+
+// una vez sabiendo quienes somos podemos llegar a la ruta absoluta del nivel y conseguir la contraseña para pasar al siguiente (ojo solamente en este caso debido a que estamos en el bandit32 pero al hacer lo del paso anterior nos tranporta al bandit33)
+// ⬇️
+cat /etc/bandit_pass/bandit33
+
+// con esto ya pasariamos al siguiente nivel

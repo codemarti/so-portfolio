@@ -1,0 +1,16 @@
+// en este nivel al realizar los mismos pasos que del nivel anterior, el README nos menciona que no hay claves
+
+// pero entonces podemos movernos en las difentes ramas (si es que existen) del repositorio
+// ⬇️
+git branch -r
+
+// al hacerlo vemos que tenemos las diferentes ramas que existen, entre ellas la que nos interesa es dev
+// para entrar en ella o en cualquier rama de las que aparecen aqui podemos hacer
+// ⬇️
+git checkout <nombre_rama>
+
+// despues para ver el historial de commits del README podemos utilizar
+// ⬇️
+git log -p
+
+// de esta manera conseguiremos la clave del siguiente nivel

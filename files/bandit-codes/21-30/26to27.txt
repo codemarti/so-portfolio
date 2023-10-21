@@ -1,0 +1,12 @@
+// este nivel esta ligado al anterior nivel y se necesita de la shell anterior
+
+// al estar en la shell de bandit26 debemos primeramente hacer un ls del nivel (bandit26)
+// ⬇️
+ls
+
+// al hacerlo veremos un binario que incluye la palabra bandit27, podemos hacer que mediante este binario entremos al siguiente nivel haciendo lo siguiente
+// ⬇️
+./bandit27 bash -p
+
+// una vez dentro del bandit27 podremos hacer un cat a la clave del nivel
+cat /etc/bandit_pass/bandit27

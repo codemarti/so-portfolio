@@ -1,0 +1,14 @@
+// este nivel es practicamente igual que el anterior ya que cuando hacemos un ls a la ruta que nos proporcionan obtemos los mismos archivos pero esta vez nos enfocaremos en el que dice bandit23
+// al hacer un cat a este archivo obtenemos que es un script de bash que lo manda al vacio
+// pero al hacer un cat al archivo que ejecuta el bandit23 obtenemos que es otro script de bash que declara una variable con el comando whoami 
+// despues declara otra variable donde guarda el nombre que almacena la anterior variable y la encripta con md5sum al final se queda unicamente con el nombre de esta variable
+// despues nos manda un mensaje diciendonos en que ruta se copio el ejecutable
+// por ultimo ejecuta ese mensaje y lo manda a la ruta que nos menciono
+// por el momento el script solamente encripta la variable whoami, por lo cual si utilizamos esa linea y utilizamos la linea que encripta al usuario y unicamente pasamos el nivel de ahora el cual es el bandit23
+// ⬇️
+// el siguiente comando hashea el bandit23 y finalmente nos quedamos solo con el primer argumento
+echo echo I am user bandit23 | md5sum | awk '{print $1}'
+
+// al hacer el anterior comando obtendremos el hash del bandit23 el cual es el que debemos pasar como target para obtener la siguiente clave
+// ⬇️
+cat /tmp/<hash_conseguido>

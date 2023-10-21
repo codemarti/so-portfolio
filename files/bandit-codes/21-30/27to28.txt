@@ -1,0 +1,13 @@
+// en este nivel necesitaremos clonar un repositorio, entonces crearemos nuestra carpeta temporal y entraremos en ella
+// ⬇️
+mktemp -d
+cd <ruta_carpeta_temporal>
+
+// a continuacion dentro de la carpeta clonaremos el repositorio (se debe clonar espcificando en este caso el puerto, despues del localhost)
+// ⬇️
+git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+
+// una vez clonado simplemente hacemos y obtenemos la siguiete clave
+// ⬇️
+cat repo/README
+

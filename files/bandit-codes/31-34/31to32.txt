@@ -1,0 +1,24 @@
+// en este nivel haremos otra clanacion como la hemos estado haciendo en los niveles anteriores con la excepcion de que esta vez nosotros debremos hacer un push al repositorio
+
+// bueno, al realizar un cat al README notamos que nos piden que requisitos debe tener el archivo, como el nombre del archivo, su contenido y la rama a donde se pusheara
+// entonces debemos hacer (todo dentro de la carpeta repo)
+// ⬇️
+touch key.txt
+echo "May I come in?" > key.txt
+
+// una vez habiendo hecho lo anterior podemos realizar el git add <nombre_archivo>
+// ⬇️
+git add key.txt
+
+// pero justamente al hacer lo anterior nos lanza un mensaje de existe un archivo .gitignore el cual ignora todos los archivos que terminen en .txt
+// entonces aqui lo que podemos hacer es simplemente eliminar el .gitignore o crear un ejecutable que intruduzca dentro del .gitignore ""
+// ⬇️
+rm .gitignore
+
+// ahora si podremos pushear el archivo key.txt
+// ⬇️
+git add key.txt
+git commit -m "<mensaje>"
+git push -u origin master
+
+// una vez hecho lo anterior no rechazara el push pero obtendremos la siguiente clave

@@ -1,0 +1,30 @@
+// este nivel tambien es una tarea cron
+// al ver lo que hace el script del usuario bandit24 vemos que ejecuta y elimina todo lo que haya en una ruta llamada /var/spool/$myname, el $myname lo declara mas arriba
+// despues lo que hace es iterar en todos los archivos del directorio actual en el que nos situamos
+// dentro de la iteracion hace una condicion en la cual checa si hay archivos dentro del directorio actual
+// despues (dentro de esta condicion) tenemos otra condicion que nos checa si el propietario es bandit23, si lo es entonces ejecuta el archivo actual que haya dentro, despues de este bloque borra dichos archivos
+// entonces para obtener la siguiente clave podemos hacer uso de la ruta absoluta la cual contiene la clave del bandit24
+// para hecer esto crearemos una carpeta temporal en la carpeta de inicio
+// ⬇️
+mktemp -d
+// ⬇️
+cd /tmp/<directorio_temporal>
+
+// daremos el privilegio a 'otros' de ejecucion, escritura y lectura a la carpeta temporal
+// ⬇️
+chmod o+rwx <ruta_capeta_temporal>
+
+// dentro de la carpeta haremos un script, este script contendra el otro script que esta dentro del /var/spool/, es importante dar el privilegio de ejecucion a este script
+// en este script usaremos la ruta absoluta donde se encuentra la clave del 24 y la meteremos al nuestro archivo temporal con el nombre martinpass (este archivo se creara de manera automatica por el cat)
+// ⬇️
+cat /etc/bandit_pass/bandit24 > /tmp/tmp.pm8tlTlOBh/martinpass.txt
+
+// despues haremos una copia de este script al /var/spool/bandit24/foo (obviamente esto es dentro de la carpeta al menos en este caso)
+// ⬇️
+cp script.sh > /var/spool/bandit24/foo
+
+// ahora una vez hecho la copia, haremos un ls cada segundo medianre un watch
+// ⬇️
+watch -n 1 ls -l
+
+// y finalmente hacemos un cat a nuestro archivo martinpass.txt

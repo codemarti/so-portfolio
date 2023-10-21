@@ -1,0 +1,12 @@
+// en este nivel igualmente haremos todos los pasos iguales hasta la clonacion del git que nos piden
+
+// y al intentar hacer los pasos extra como cambiarnos de branch vemos que no podremos, entonces en este caso debemos recordar que en los proyectos se maneja algo que se llama etiquetas
+// ⬇️
+git tag
+// al hacer este comando nos arroja un tag que se llama secret
+
+// y para ver lo que esta dentro del tag podemos hacer
+// ⬇️
+git show secret
+
+// al aplicar el anterior comando obtenemos la clave del siguiente nivel

@@ -1,0 +1,16 @@
+// en este nivel lo que tenemos que hacer es conectarnos mediante dos terminales diferentes, y en una realizar el ./suconnect y especificar el puerto al que queremos conectarnos
+// y en la otra terminar debemos configurar el servidor en modo escucha para esperar la conexion entrante
+
+// en esta parte trabajaremos configurando el servidor en modo escucha, para esto se necesita del comando:
+// donde -n nos quita la busqueda mediante resolucion de dns, osea que solo busca mediante direcciones IP
+//-l con este parametro decimos a nc que se ponga en modo escucha y que espere una conexion entrante en el puerto especificado
+// -v verbose que nos de informacion mas detallada o adicional en la salida sobre la conexion, como direcciones IP y puertos
+-p con este parametro le especificamos a nc que puerto es donde va a escuchar
+// ⬇️
+nc -nlvp <numero_puerto>
+
+// ahora haremos la conexion ./suconnect al puerto que hayamos especificado anteriormente o en el anterior comando que hayamos mandado
+// ⬇️
+./suconnect <numero_puerto_especificado>
+
+// una vez que hayamos hecho ./suconnect al puerto debemos mandar la contraseña del nivel actual para obtener la clave del siguiente nivel

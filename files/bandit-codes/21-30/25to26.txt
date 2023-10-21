@@ -1,0 +1,19 @@
+// en este nivel vemos que al querer acceder al siguiente nivel mediante la key que nos proporcionan nos sacan del nivel
+// podemos hacer un cat a /etc/passwd pero como nos arroja muchos resultados podemos grepear por bandit26
+// ⬇️
+cat /etc/passwd | grep bandit26
+
+// al hacer lo anterior nos daremos cuenta que bandit26 tiene otra ruta de los demas bandit en especial tiene la ruta /usr/bin/showtext y al hacer un cat a esa ruta vemos que esta aplicando un more, entonces podemos aprovecharnos de esto haciendo mas chica la terminal
+// ⬇️
+ssh -i bandit26.sshkey bandit26@localhost -p 2220
+
+// ahora si tecleamos la tecla 'v' entramos a un modo donde si ahora teclamos "SHFT + :" entramos a un modo como de edicion
+// en este modo para obtener la clave tendremos que spawnear una shell
+// ⬇️
+// aqui estamos diciendo que shell valdra lo siguiente
+set shell=/bin/bash
+
+// y si despues de esto al darle enter y despues ':' y escribimos shell ya tendremos una shell y seremos el bandit26
+:shell
+
+

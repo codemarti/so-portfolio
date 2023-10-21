@@ -1,0 +1,16 @@
+// en este nivel tambien tendremos que hacer un git clone
+
+// para esto siempre es bueno crearse una carpeta temporal que guarde este clon.
+// ⬇️
+mktemp -d
+cd <nombre_carpeta_temporal>
+
+// dentro de la carpeta haremos el clon y tendremos que pasarle la contraseña del nivel actual para poder realizar la clonacion con exito
+// ⬇️
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+
+// dentro de la repo podemos ejecutar el comando para ver los commits que se hayan hecho
+// ⬇️
+git log -p
+
+// de esta forma podremos obtener la siguiente clave

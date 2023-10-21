@@ -120,7 +120,7 @@
 >`.
 >`
 >
->[![Imagen de mi perfil de HacktoberFest](https://holopin.me/codemarti)](https://holopin.io/@codemarti)
+>➡️ [Mi perfil de HacktoberFest](https://holopin.me/codemarti) ⬅️
 > ----
 
 #### Tarea #991
@@ -151,12 +151,12 @@
 >`✅ Realizar el siguiente ejercicio durante la clase de hoy, documentar los resultados en un PDF mediante screenshots y subir el PDF a su repositorio como evidencia.
 >`
 >
->➡️ [Tarea 988.](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-988.pdf "Tarea 988") ⬅️
+>➡️ [Tarea 988](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-988.pdf "Tarea 988") ⬅️
 > ----
 
 #### Tarea #987
 >`✅ Realizar el siguiente laboratorio durante la clase de hoy , en un PDF documentar con screenshots los resultados de sus comandos y las respuestas a sus preguntas. Subir el PDF a su repo.
 >`
 >
->➡️ [Tarea 987.](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-987.pdf "Tarea 987") ⬅️
+>➡️ [Tarea 987](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-987.pdf "Tarea 987") ⬅️
 > ----
