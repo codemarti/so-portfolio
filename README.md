@@ -7,6 +7,7 @@
 >`
 >
 >️️️️️️️️️➡️ [Captura de la distribución ya instalada en VBox.](https://github.com/codemarti/so-portfolio/blob/main/files/998.distribucion-instalada.png "Captura de la distribución ya instalada en VBox.") ⬅️
+>
 > ----
 
 #### Tarea #997
@@ -16,6 +17,7 @@
 >`
 >
 >➡️ [Captura del nivel final de VIM Adventures.](https://github.com/codemarti/so-portfolio/blob/main/files/997.vima-nivel-final.png "Captura del nivel final de VIM Adventures.") ⬅️
+>
 > ----
 
 #### Tarea #996
@@ -89,6 +91,7 @@
 > done
 > ```
 >➡️ [ASCIINEMA GIF](https://asciinema.org/a/608822 "ASCIINEMA GIF") ⬅️
+>
 > ----
 
 #### Tarea #995
@@ -96,6 +99,7 @@
 >`
 >
 >➡️ [GIF temas aprendidos del curso.](https://github.com/codemarti/so-portfolio/blob/main/files/996.QUE-ES-BASH.gif "GIF temas aprendidos del curso.") ⬅️
+>
 > ----
 
 #### Tarea #994
@@ -103,6 +107,7 @@
 >`
 >
 >➡️ [Carpeta contenedora de los scripts.](https://github.com/codemarti/so-portfolio/tree/main/menu/contenedor-directorios/seis "Carpeta contenedora de los scripts.") ⬅️
+>
 > ----
 
 #### Tarea #993
@@ -112,6 +117,7 @@
 >`
 >
 >➡️ [Carpeta contenedora de los comandos para los niveles de Bandit.](https://github.com/codemarti/so-portfolio/tree/main/files/bandit-codes "Carpeta contenedora de los comandos para los niveles de Bandit.") ⬅️
+>
 > ----
 
 #### Tarea #992
@@ -121,13 +127,16 @@
 >`
 >
 >➡️ [Mi perfil de HacktoberFest](https://holopin.me/codemarti) ⬅️
+>
 > ----
 
 #### Tarea #991
->`❌ Realizar los rooms de Linux Fundamentals de
+>`✅ Realizar los rooms de Linux Fundamentals de
 >`[TryHackMe](https://tryhackme.com/room/linuxfundamentalspart1 "TryHackMe")
 >`los 3 rooms, solo los que sean gratis.
 >`
+>
+>➡️ [Screenshot de las Rooms completadas](https://github.com/codemarti/so-portfolio/blob/main/files/tryhackme-rooms/rooms.png "Screenshot de las Rooms completadas") ⬅️
 >
 > ----
 
@@ -152,6 +161,7 @@
 >`
 >
 >➡️ [Tarea 988](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-988.pdf "Tarea 988") ⬅️
+>
 > ----
 
 #### Tarea #987
@@ -159,4 +169,5 @@
 >`
 >
 >➡️ [Tarea 987](https://github.com/codemarti/so-portfolio/blob/main/files/pdf-folders/tarea-987.pdf "Tarea 987") ⬅️
+>
 > ----

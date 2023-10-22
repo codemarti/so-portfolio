@@ -1,0 +1,76 @@
+Intro to Offensive Security
+
+Vemos que un Offensive Security es la persona que se encarga de simular los ataques de un Hackear a las organizaciones, busca romper los sistemas de las computadoras, explotando los bugs de los softwares y buscar vulnerabilidades en el los sistemas de las compañias, entonces se menciona que para ser un Offensive Security debemos ponernos en los zapatos de los Hackers y encontrar todas esas vulnerabilidades antes de que otro Hacker lo haga.
+
+Defensive Security este lado es el que se encarga de encontrar esas vulnerabilidades en los sistemas de las organizaciones, este lado se encarga de investigar como los dispositivos son hackeados, monitoriar la infracestructura de la empresa buscando activadad malisiosa, o dar con los cibercriminales.
+
+Como pentester siempre es bueno como primer test en una organizacion encotrar vulnerabilidades en las paginas web de las organizaciones.
+
+
+En Fundamentals Part 1 se vieron comandos muy buenos como:
+  - > el cual mete cualquier cosa dentro de un archivo y por ende siempre se sobreecribe cuando se utiliza esto.
+  - >> esto mete cualquier cosa dentro de un archivo pero no sobreecribe lo que ya este dentro.
+  - & este operador ejecuta comandos en segundo plano.
+  - && este operador contatena los comandos que queramos.
+
+
+En Fundamentals Part 2 se vieron nuevas cosas como:
+  - la conexion de manera segura mendiante ssh, necesitamos usar ssh para conectarnos remotamente seguidamente de pasar un usuario y el dominio
+  
+  - como una usar le comando 'man' para ver el manual de los diferente comando, la sintaxis es man <nombre_comando>
+
+  - como listar un archivo y ver por columnas informacion importante mediante ls -al, el orden de las columnas es:
+    - primer columna: privilegios de propietario, grupos y otros
+    - segunda columna: la cantidad de enlaces duros que apuntan a este archivo
+    - tercera columna: nombre del propietario
+    - cuarta columna: nombre del grupo al que pertenece el archivo
+    - quinta columna: el tamaño en bytes del archivo
+    - sexta columna: la fecha de la ultima modificacion del archivo
+    - septima columna: el nombre del archivo
+
+  - un breve resumen de que contienen algunas carpetas:
+    - /etc : este es una de los directorios mas importantes del sistema, ya que aqui comunmente es donde se guardan los archivos que se usaran por el sistema operativo, por ejemplo contiene el directorio sudoers el cual otorga el permiso de correr el comando sudo, etc, tambien la carpeta /etc contiene los archivos 'passwd' y 'shadow' los cuales son especiales para linux ya que aqui es donde se declara como se van a trabajar las contraseñas, encriptacion, etc.
+
+    - /var : aqui se guardan los registros o logs los cuales se utilizan casi siempre por diferentes servicios, aqui tambien se guarda la data que mayormente no es necesaria. Aqui tenemos la ruta /var/log la cual contiene informacion de aplicaciones y sevicios que se estan corriendo en nuestro sistema.
+
+    - /root : es la carpeta donde se almacena la data del usuario, la carpeta raiz que tiene acceso a todos los archivos del sistema
+
+    - /tmp : esta carpeta contiene archivo volatiles los cuales solamente se usaran en el momento cuando el usuario este trabajando, ya que estos archivos se van cuando se reinica la RAM, aqui es donde podemos crear tambien carpetas temporales con el comando mktemp -d.
+
+En Fundamentals Part 3 se vio:
+  - nano para crear o editar archivos, tambien nos sirve para crear scripts
+    - aqui tambien este VIM o VI
+
+  - wget esto nos sirve para descargar archivos via URLs (HTTP o HTTPS). Podemos (es es el caso) indicar ciertos parametros como:
+    - nombre de usuario
+    - dominio
+    - la ruta donde se encuentra el archivo mediante '/'
+
+  - scp el cual es como el cp pero utiliza el protocolo SSH para la realizacion segura de copias de archivos al cual tambien se le pasan los parametros:
+    - nombre de usuario
+    - dominio
+    - la ruta donde se encuentra el archivo mediante '/'
+
+  - python3 -m http.server para crear nuestro servidor y poder servirlo a los demas hosts.
+
+  ** Si queramos realizar un wget a un servidor debemos asegurarnos que el servidor exista, si tenemos el control (seguro) podemos hacerlo con python3 -m http.server **
+
+  - ps este comando nos provee una lista de procesos que se estan corriendo en nuestra sesion de usuario e informacion extra como el codigo de estado, la sesion, cuando tiempo a estado encendido desde que se inicio la cpu, y el nombre del programa que lo esta usando en ese momento
+
+  - ps aux nos sirve para ver los procesos que estan corriendo otros usuarios como root por ejemplo
+
+  - top es un comando que nos sirve para supervisar la actividad del sistema en tiempo real, lo que incluye la informacion del CPU, memoria y otros recursos del sistema, asi como la lista de procesos en ejecucion
+
+  - kill mata el proceso, pero para esto necesitamos proporcionarle el PID del proceso
+
+  - systemctl, nos sirve para iniciar procesos o servicios, la sintaxis es systemctl [option] [service], dentro de option podemos poner:
+    - start
+    - stop
+    - enable
+    - disable
+
+  - /var/log esta ruta contiene informacion de aplicaciones y servicios que se estan utilizando en nuestro sistema, estos registros y servicios son una forma de mantener en buen estado nuestro monitorizacion de nuestro sistema y protegerlo,
+  pero no solamente esto, ya que tambien contiene informacion adicional de nuestro sistema la cual contiene informacion de todas la peticiones que se hayan hecho permitiendo a los administradores y desarrolladores diagnosticar los problemas o actividad sospechosa, por ejemplo:
+    - access log
+    - error log
+  Estos registros almacenan informacion del sistema y acciones realizadas por los usuarios como intentos de autenticacion
