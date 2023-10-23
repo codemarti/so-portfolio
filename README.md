@@ -106,7 +106,7 @@
 >`✅ Realizar los 18 bash scripts que vienen en el PDF shell_linux.pdf, subirlos a su repositorio.
 >`
 >
->➡️ [Carpeta contenedora de los scripts.](https://github.com/codemarti/so-portfolio/tree/main/menu/contenedor-directorios/seis "Carpeta contenedora de los scripts.") ⬅️
+>➡️ [Carpeta contenedora de los scripts.](https://github.com/codemarti/so-portfolio/tree/main/files/menu/contenedor-directorios/seis "Carpeta contenedora de los scripts.") ⬅️
 >
 > ----
 
@@ -141,10 +141,12 @@
 > ----
 
 #### Tarea #990
->`❌ Crear un jail, del estilo de bandit, aquí explicó cómo crear un jail y en qué consiste, está hecho con Python, pueden usar cualquier lenguaje
+>`✅ Crear un jail, del estilo de bandit, aquí explicó cómo crear un jail y en qué consiste, está hecho con Python, pueden usar cualquier lenguaje
 >`👉 [Como crear un Jail](https://youtu.be/jAvAacuWlwo?si=hIdlSOjfBCbWtFzH "Como crear un Jail")
 >`.
 >`
+>
+>➡️ [Mi Jail](https://github.com/codemarti/so-portfolio/blob/main/files/jail-folder "Mi Jail") ⬅️
 >
 > ----
 
