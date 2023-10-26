@@ -136,7 +136,7 @@
 >`los 3 rooms, solo los que sean gratis.
 >`
 >
->➡️ [Screenshot de las Rooms completadas](https://github.com/codemarti/so-portfolio/blob/main/files/tryhackme-rooms/rooms.png "Screenshot de las Rooms completadas") ⬅️
+>➡️ [Screenshot de las Rooms completadas](https://github.com/codemarti/so-portfolio/blob/main/files/tryhackme-rooms/tryhackme-profile.png "Screenshot de las Rooms completadas") ⬅️
 >
 > ----
 
@@ -146,15 +146,17 @@
 >`.
 >`
 >
->➡️ [Mi Jail](https://github.com/codemarti/so-portfolio/blob/main/files/jail-folder "Mi Jail") ⬅️
+>➡️ [Mi Jail](https://github.com/codemarti/so-portfolio/blob/main/files/jail-folder/jail.py "Mi Jail") ⬅️
 >
 > ----
 
 #### Tarea #989
->`❌ Realizar el room de Bash Scripting de
+>`✅ Realizar el room de Bash Scripting de
 >`[TryHackMe](https://tryhackme.com/room/bashscripting "TryHackMe")
 >`.
 >`
+>
+>➡️ [Screenshot del Bash Scripting de TryHackMe](https://github.com/codemarti/so-portfolio/blob/main/files/tryhackme-rooms/tryhackme-profile.png "Screenshot del Bash Scripting de TryHackMe") ⬅️
 >
 > ----
 
