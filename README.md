@@ -177,17 +177,16 @@
 > ----
 
 #### Tarea #986 ✅
->`Realizar las instalaciones de los siguientes:
->>📌 ssh ⏩ **Open SSH**
+>`Realizar las instalaciones de los siguientes:`
+>>📌 `ssh` ⏩ **Open SSH**
 >>
->>📌 Servicio Web ⏩ **Apache**
+>>📌 `Servicio Web` ⏩ **Apache**
 >>
->>📌 Database ⏩ **MariaDB**
+>>📌 `Database` ⏩ **MariaDB**
 >>
->>📌 Proxy Web ⏩ **Squit**
+>>📌 `Proxy Web` ⏩ **Squit**
 >>
->>📌 DNS ⏩ **Bind9**
->`
+>>📌 `DNS` ⏩ **Bind9**
 >
 >➡️ [Tarea 986](https://github.com/codemarti/so-portfolio/blob/main/files/986-instalaciones.png "Tarea 986") ⬅️
 >
