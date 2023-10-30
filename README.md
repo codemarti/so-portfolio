@@ -177,9 +177,18 @@
 > ----
 
 #### Tarea #986 ✅
->`Realizar el siguiente laboratorio durante la clase de hoy , en un PDF documentar con screenshots los resultados de sus comandos y las respuestas a sus preguntas. Subir el PDF a su repo.
+>`Realizar las instalaciones de los siguientes:
+>>📌 ssh ⏩ **Open SSH**
+>>
+>>📌 Servicio Web ⏩ **Apache**
+>>
+>>📌 Database ⏩ **MariaDB**
+>>
+>>📌 Proxy Web ⏩ **Squit**
+>>
+>>📌 DNS ⏩ **Bind9**
 >`
 >
->➡️ [Tarea 986](https://github.com/codemarti/so-portfolio/blob/main/files/986.instalaciones.png "Tarea 986") ⬅️
+>➡️ [Tarea 986](https://github.com/codemarti/so-portfolio/blob/main/files/986-instalaciones.png "Tarea 986") ⬅️
 >
 > ----
